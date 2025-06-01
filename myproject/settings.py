@@ -130,6 +130,6 @@ LOGIN_REDIRECT_URL = "/diary/"
 
 LOGOUT_REDIRECT_URL = "/login/"
 
-STATICFILES_DIRS = [
+STATICFILES_ROOT = [
     BASE_DIR / "static",
 ]
